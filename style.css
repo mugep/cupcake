@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #ffe6e6;
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+}
+
+#main-nav {
+    background: #f4f4f4;
+}
+
+#main-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#main-nav ul li a {
+    padding: 0.75rem;
+    font-weight: bold;
+    color: #cfb9b9;
+}
+
+#main-nav ul li a:hover {
+    background: #ee9595;
+    color: #fff;
+}
+
+#main-nav .logo {
+    color: #ee9595;
+}
+
+#showcase {
+    background: #ee9595;
+    height: 65vh;
+}
+
+
+.showcase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.showcase-content-right {
+    color: #fff;
+}
+
+.showcase-content-right h1 {
+    font-size: 3rem;
+}
+
+.showcase-content-right p {
+    font-size: 1.1rem;
+    margin: 1.2rem 0;
+}
+
+.showcase-content-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-container {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+    align-items: center;
+}
+
+.about-container .right-about img {
+    width: 500px;
+}
+
+.about-container .left-about {
+    text-align: center;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.about-container .left-about h1 {
+    font-size: 2rem;
+    color: #ee9595;
+}
+
+.about-container .left-about p {
+    color: #374045;
+    font-size: 1.2rem;
+}
+
+#shop {
+    background: #ee9595;
+    color: #fff;
+    padding: 2rem;
+}
+
+#shop h2 {
+    text-align: center;
+}
+
+#shop .shop-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem;
+    grid-gap: 1.2rem;
+}
+
+.last {
+    margin-top: 30px !important;
+}
+
+#shop .shop-container .card h3 {
+    text-align: center;
+}
+
+#shop .shop-container .card img {
+    width: 300px;
+}
+
+#shop .shop-container .card p {
+    margin-left: 1.2rem;
+}
+
+#footer {
+    background: #ffe6e6;
+    color: #333;
+    padding: 2rem;
+}
+
+#footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+#footer .footer-container h3 {
+    margin-bottom: 1.1rem;
+}
+
+#footer .footer-container .btn {
+    margin-top: 1.2rem;
+    background: #ee9595;
+    color: #333;
+}
+
+#footer .footer-container a {
+    color: #ee9595;
+}
+
+#footer .footer-container a:hover {
+    opacity: 0.9;
+}
+
+.social {
+    margin-right: 10px;
+}
+
+.last-one {
+    margin-top: 1.2rem;
+    padding: .8rem;
+    grid-column: 1 / span 2;
+    background: #ee9595;
+    color: #f4f4f4;
+}
+
+
+
